@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
     <!-- My Css-->
     <link rel="stylesheet" href="style.css" />
+    <!-- My Aos-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body id="home">
     <!-- navbar-->
@@ -62,10 +64,10 @@
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-5md-4">
+          <div class="col-5md-4" data-aos="fade-right" data-aos-duration="3000">
             <p>Menjadi mahasiswa di kampus yang sama menjadikan kami parner yang baik untuk melewati masa perkuliahan teknik informatika dengan tugas-tugas yang menarik.</p>
           </div>
-          <div class="col-5md-4">
+          <div class="col-5md-4" data-aos="fade-left" data-aos-duration="3000">
             <p>Dengan latar belakang, sifat, dan kemampuan yang berbeda tidak membuat kontradiksi seribg muncul. Pemahaman antar satu sama lain memberikan kemudahan dalam berdiskusi</p>
           </div>
         </div>
@@ -92,14 +94,14 @@
         </div>
         <div class="row justify-content-evenly">
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="100">
               <img src="img/Projects/6.jpg" class="card-img-top" alt="Projects 1" />
               <div class="card-body">
                 <p class="card-text">Dokumentasi Ulang Tahun</p>
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3">
+          <div class="col-md-4 mb-3" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="75">
             <div class="card">
               <img src="img/Projects/7.jpg" class="card-img-top" alt="Projects 2" />
               <div class="card-body">
@@ -108,7 +110,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="50">
               <img src="img/Projects/8.jpg" class="card-img-top" alt="Projects 3" />
               <div class="card-body">
                 <p class="card-text">Waktu Nonton Event Wibu</p>
@@ -182,6 +184,12 @@
     <!-- Akhir Footer-->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
     <script>
       const scriptURL = "https://script.google.com/macros/s/AKfycbzOSifg-EyM34QOZmUb9UxYFl5wQO0veMmfhqydc9y78em--oZjWlM3BAyJwZqdPxUCBQ/exec";
       const form = document.forms["nad-contact-form"];
